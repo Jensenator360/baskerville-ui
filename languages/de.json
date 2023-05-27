@@ -1,7 +1,0 @@
-{
-    "settings.selectedStyle.name": "Ausgewähltes CSS",
-    "settings.selectedStyle.hint": "Wähle das gewünschte CSS aus.",
-    "settings.selectedStyle.choices.style1": "Stil 1",
-    "settings.selectedStyle.choices.style2": "Stil 2",
-    "settings.selectedStyle.currentStyle": "Aktuell ausgewähltes CSS: {style}"
-  }  
