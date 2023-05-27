@@ -53,38 +53,38 @@
 /* -- HEADER -------------------- */
 @font-face {
     font-family: "Header";
-    src: url("../../ui/fonts/Quando-Regular.ttf");
+    src: url("../ui/fonts/Quando-Regular.ttf");
 }
 
 /* --  SERIF  -------------------- */
 @font-face {
     font-family: "Primary Font";
     font-weight: normal;
-    src: url("../../ui/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+    src: url("../ui/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
 }
 
 @font-face {
     font-family: "Primary Font Bold";
     font-weight: bold;
-    src: url("../../ui/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+    src: url("../ui/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
 }
 
 /* -- SANS SERIF -------------------- */
 @font-face {
     font-family: "Primary Sans";
-    src: url("../../ui/fonts/Signika-VariableFont_wght.ttf");
+    src: url("../ui/fonts/Signika-VariableFont_wght.ttf");
 }
 
 /* --- MONOSPACED -------------------- */
 @font-face {
     font-family: "Monospaced";
-    src: url("../../ui/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf");
+    src: url("../ui/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf");
 }
 
 /* -- LvlUp Font -------------------- */
 @font-face {
     font-family: "LevelUp Font";
-    src: url("../../ui/fonts/Charm-Regular.ttf");
+    src: url("../ui/fonts/Charm-Regular.ttf");
 }
 
 /* ## Editor ##################### */
@@ -180,7 +180,7 @@ footer {
 /* ## Logo #################### */
 /*
 #logo {
-    content: url(../../ui/dwlogo.webp);
+    content: url(../ui/dwlogo.webp);
     height: 80px;
 }
 */
@@ -194,7 +194,7 @@ footer {
 }
 
 #pause img {
-    content: url(../../ui/pauseicon.svg);
+    content: url(../ui/pauseicon.svg);
 }
 
 /* ## Icons ################### */
@@ -646,7 +646,7 @@ h4.dice-total {
 }
 
 .vtt #chat-form textarea {
-    background: url(../../ui/parchment_chat.webp) repeat;
+    background: url(../ui/parchment_chat.webp) repeat;
     background-color: var(--color-baskerville-parchment);
     color: #000;
 }
