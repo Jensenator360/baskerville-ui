@@ -18,15 +18,15 @@
             "discord": "Jensenator#3796"
         }
     ],
+    "styles": [
+    "css/baskerville.css"
+    ],
     "scripts": [
       "script/settings.js"
     ],
-    "styles": [
-      "css/baskerville.css"
-    ],
     "languages": [
-      "lang/de.json",
-      "lang/en.json"
+      "languages/de.json",
+      "languages/en.json"
     ],
   "url": "https://github.com/Jensenator360/baskerville-ui",
   "manifest": "https://github.com/Jensenator360/baskerville-ui/releases/latest/download/module.json",
