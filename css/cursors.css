@@ -1,0 +1,164 @@
+ /******************** CURSOR ********************/
+ .chat-card-button {
+    cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  body {
+    cursor:url(ui/cursors/normal.png), default; 
+  }
+  
+  a{
+    cursor:url(ui/cursors/pointer.png), pointer; 
+  }
+  
+  .draggable{
+    cursor:url(ui/cursors/drag.png), move; 
+  }
+  
+  #hotbar .macro{
+    cursor:url(ui/cursors/pointer.png), pointer;
+  }
+
+   #playlists-popout .global-volume::-webkit-slider-thumb,
+      #sidebar #playlists .global-volume::-webkit-slider-thumb {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  #playlists-popout li.playlist:not(:first-of-type) li.sound .sound-volume::-webkit-slider-thumb,
+        #sidebar #playlists li.playlist:not(:first-of-type) li.sound .sound-volume::-webkit-slider-thumb {
+          cursor:url(ui/cursors/pointer.png), pointer; 
+      }
+  
+  #sidebar #settings button {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  #navigation #scene-list .scene.view, #navigation #scene-list .scene.context {
+      cursor:url(ui/cursors/normal.png), default; 
+  }
+  
+  #navigation #nav-toggle {
+      cursor:url(ui/cursors/normal.png), default !important; 
+  }
+  
+  #navigation #scene-list .scene.nav-item {
+      cursor:url(ui/cursors/normal.png), default !important; 
+  }
+  
+  #controls .scene-control.active, #controls .control-tool.active, #controls .scene-control:hover, #controls .control-tool:hover {
+      cursor:url(ui/cursors/normal.png), default !important; 
+  }
+  
+  #controls .scene-control, #controls .control-tool {
+      cursor:url(ui/cursors/pointer.png), pointer !important; 
+      cursor:url(ui/cursors/normal.png), default !important; 
+  }
+  
+  .app.window-app .form-group input[type="range"]::-webkit-slider-thumb {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  .token-sheet .tab[data-tab="image"] input[type="range"]::-webkit-slider-thumb {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  #drawing-config .tab[data-tab="image"] input[type="range"]::-webkit-slider-thumb {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  .metacurrency-value {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  .overcast-button,
+  .chargen-button {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  #effects-config .flex2::-webkit-slider-thumb {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  #client-settings .window-content form .form-group > label,
+  #client-settings .window-content form .form-group select,
+  #client-settings .form-group input,
+  .app.window-app .form-group label,
+  #sidebar .sidebar-tab #chat-controls div.roll-type-select select,
+  #sidebar .sidebar-tab #chat-controls div.roll-type-select i.fas {
+      cursor:url(ui/cursors/normal.png), default; 
+  }
+  
+  #client-settings section.content .submenu > button,
+  #client-settings .window-content button label,
+  form .form-group .form-fields button,
+  form button {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+  
+  .window-app .window-resizable-handle {
+      cursor:url(ui/cursors/resize.png), all-scroll;
+  }
+
+  input[type="text"], input[type="password"] {
+      cursor:url(ui/cursors/pointer.png), pointer;
+  }
+
+  #combat #combat-controls a.center {
+      cursor:url(ui/cursors/sword.png), crosshair;
+  }
+
+  .vtt .window-app .dialog-buttons .dialog-button, .vtt .window-app .dialog-button {
+     cursor:url(ui/cursors/pointer.png), pointer;
+  }
+
+  .sidebar-tab .directory-footer button, #macros .directory-footer button, #macros .directory-footer button, #sidebar button, #sidebar .header-actions button {
+    cursor:url(ui/cursors/pointer.png), pointer;
+  }
+
+  #chat-form textarea {
+    cursor:url(ui/cursors/talk.png), text;
+}
+
+  #homebrew-settings .window-content button, #client-settings .window-content button {
+    cursor:url(ui/cursors/pointer.png), pointer;
+}
+
+#client-settings .tab[data-tab='modules'] .module-header::before {
+    cursor:url(ui/cursors/pointer.png), pointer;
+}
+
+#token-hud {
+    cursor:url(ui/cursors/pointer.png), pointer;
+}
+
+.app.window-app .dialog-buttons button, .app.window-app .sheet-footer button, .app.window-app .form-group .file-picker, .app.window-app button[type="button"], .app.window-app button[type="submit"], .app.window-app button[type="reset"] {
+   cursor: url(ui/cursors/pointer.png), pointer;
+}
+
+.dungeonworld.sheet .sheet-look .cell--image img {
+    cursor: url(ui/cursors/pointer.png), pointer;
+}
+
+.dungeonworld.sheet .cell__title, .dungeonworld.sheet .cell__subtitle {
+   cursor: url(ui/cursors/normal.png), default;
+}
+
+.rollable  {
+    cursor: url(ui/cursors/pointer.png), pointer !important;
+}
+
+.checkbox {
+    cursor: url(ui/cursors/pointer.png), pointer !important;
+}
+
+input[type="radio"] {
+   cursor: url(ui/cursors/pointer.png), pointer !important;
+}
+
+input[type="checkbox"] {
+    cursor: url(ui/cursors/pointer.png), pointer !important;
+}
+
+/*  .window-draggable-handle {
+      cursor:url(ui/cursors/grab.png), grab;
+  }
+*/

@@ -1,0 +1,41 @@
+{
+    "id": "baskerville-ui",
+    "title": "Baskerville UI",
+    "description": "A Dark and Light Theme for Dungeon World",
+    "version": "1.5.0",
+    "library": "false",
+    "manifestPlusVersion": "1.2.0",
+    "compatibility": {
+      "minimum": "11",
+      "verified": "11"
+    },
+    "minimumCoreVersion": "11",
+    "compatibleCoreVersion": "11",
+    "authors": [
+        {
+            "name": "Jensenator360",
+            "url": "https://github.com/Jensenator360",
+            "discord": "Jensenator#3796"
+        }
+    ],
+    "scripts": [
+      "scripts/baskerville.js"
+    ],
+    "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "lang/en.json",
+        "flags": {}
+      },
+      {
+        "lang": "de",
+        "name": "Deutsch (German)",
+        "path": "lang/de.json",
+        "flags": {}
+      }
+    ],
+  "url": "https://gitlab.com/Jensenator/baskerville-ui",
+  "manifest": "https://gitlab.com/Jensenator/baskerville-ui/-/raw/main/module.json",
+  "download": "https://gitlab.com/Jensenator/baskerville-ui/-/archive/main/baskerville-ui-main.zip"
+}

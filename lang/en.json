@@ -1,0 +1,6 @@
+{
+"UI.SETTINGS.DISABLE_STYLES": "Disable Baskerville UI",
+"UI.SETTINGS.DISABLE_STYLES_HINT": "Do not deactivate, is only for test purposes!",
+"UI.SETTINGS.THEME": "UI Theme",
+"UI.SETTINGS.THEME_HINT": "Choose a theme for your UI."
+}

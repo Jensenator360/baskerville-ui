@@ -1,0 +1,411 @@
+/* ## BASKERVILLE UI #################### */
+/* ## DARK MODE VERSION #################### */
+
+:root {
+    --color-baskerville-accent: #9580ff;
+    --color-baskerville-accent-secondary: #ff9580;
+    --color-baskerville-accent-tertiary: #ff80bf;
+    --color-baskerville-accent-highlight: #80ffea;
+    --color-baskerville-inactive: #6c7393;
+    --color-baskerville-border: #21222c;
+    --color-baskerville-border-secondary: rgba(149, 128, 255, 0.251);
+    --color-baskerville-border-tertiary: var(--color-baskerville-inactive) --color-baskerville-border-highlight: var(--color-baskerville-accent-highlight);
+    --color-baskerville-content: rgba(33, 33, 38, 0.85);
+    --color-baskerville-content-window: #010101;
+    --color-baskerville-glow: rgba(255, 255, 255, 0.2);
+    --color-baskerville-shadow: rgba(0, 0, 0, 0.9);
+    --color-baskerville-text-highlight: var(--color-baskerville-accent-highlight);
+    --color-baskerville-text-primary: #e6e6e6;
+    --color-baskerville-text-secondary: rgba(255, 255, 255, 0.8);
+    --color-baskerville-text-tertiary: #a7abbe;
+    --color-baskerville-text-dark: #414558;
+    --color-baskerville-text-inactive: var(--color-baskerville-inactive);
+    
+    --color-baskerville-failure: #9d5c5c;
+    --color-baskerville-failure-secondary: #ff9580;
+    --color-baskerville-success: #5bb372;
+    --color-baskerville-success-secondary: #8aff80;
+
+    --filter-backdrop: none;
+    --color-baskerville-parchment: #c0b29c;
+    --color-baskerville-background: linear-gradient(0deg, rgba(33, 34, 44, 0.9) 0%, rgba(33, 34, 44, 0.75) 75%, rgba(33, 34, 44, 0.7) 100%);
+
+    /* Fonts */
+    --font-primary: "Primary Font";
+    --font-mono: "Monospaced";
+    --font-header: "Header";
+    --font-sans: "Primary Sans";
+}
+
+:root {
+    scrollbar-color: var(--color-baskerville-accent-tertiary);
+    scrollbar-width: thin;
+}
+
+.mce-content-body {
+    font-family: var(--font-mono) !important;
+}
+
+
+/* ### LOCAL FONTS ############################### */
+
+/* -- HEADER -------------------- */
+@font-face {
+    font-family: "Header";
+    src: url("../../ui/fonts/Mikadan.ttf");
+}
+
+/* --  SERIF  -------------------- */
+@font-face {
+    font-family: "Primary Font";
+    font-weight: normal;
+    src: url("../../ui/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Primary Font Bold";
+    font-weight: bold;
+    src: url("../../ui/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf");
+}
+
+/* -- SANS SERIF -------------------- */
+@font-face {
+    font-family: "Primary Sans";
+    src: url("../../ui/fonts/Signika-VariableFont_wght.ttf");
+}
+
+/* --- MONOSPACED -------------------- */
+@font-face {
+    font-family: "Monospaced";
+    src: url("../../ui/fonts/Fira_Code/FiraCode-VariableFont_wght.ttf");
+}
+
+/* ## Header ############################### */
+
+h1, h2, h3, h3 {
+    color: inherit;
+    border-color: var(--color-baskerville-border);
+    border-width: 1px;
+    font-family: var(--font-header) !important;
+}
+
+h1.nue, h2.nue, h3.nue, h3.nue, footer.nue {
+    border-color: var(--color-baskerville-border);
+}
+
+hr {
+    border-top: 1px solid var(--color-baskerville-glow);
+    border-bottom: 1px solid var(--color-baskerville-glow);
+}
+
+footer {
+    color: inherit;
+    font-family: var(--font-sans) !important;
+}
+
+/* ## Scrollbar #################### */
+
+::-webkit-scrollbar {
+    background: inherit;
+    border: 1px solid transparent;
+    border-radius: 1px;
+    border-width: 1px;
+    background: transparent;
+    height: 6px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0 0 6px var(--color-baskerville-glow) inset;
+    box-shadow: 0 0 6px var(--color-baskerville-glow) inset;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: -webkit-gradient(linear, left bottom, left top, from(var(--color-baskerville-accent-tertiary)), to(var(--color-baskerville-accent-secondary)));
+    background: linear-gradient(0deg, var(--color-baskerville-accent-tertiary) 0%, var(--color-baskerville-accent-secondary) 100%);
+    border-radius: 0;
+    outline: none;
+}
+
+/* ## Pause #################### */
+
+#pause figcaption {
+    font-family: var(--font-header) !important;
+    text-shadow: 3px 3px var(--color-baskerville-shadow);
+    font-size: 3em;
+  }
+  
+  #pause img {
+    content: url(../../ui/pauseicon.svg);
+  }
+
+/* ## Input  #################### */
+
+label.checkbox > input[type="checkbox"] {
+    position: inherit !important;
+}
+
+/* ## Button #################### */
+
+  button, form button {
+    background: inherit;
+    border: 1px solid var(--color-baskerville-accent);
+    background: var(--color-baskerville-content);
+    color: var(--color-baskerville-text-primary);
+    border-radius: 0px;
+}
+
+button:hover, form button:hover {
+    cursor: pointer;
+    border: 1px solid var(--color-baskerville-accent);
+    background: var(--color-baskerville-accent);
+    color: var(--color-baskerville-text-primary);
+    -webkit-transition: .25s;
+    transition: .25s;
+    box-shadow: none !important;
+}
+
+/* ## Windows-App #################### */
+
+.vtt .window-app button {
+    font-family: var(--font-primary);
+    background: var(--color-baskerville-content);
+}
+
+/* ## Sidebar #################### */
+
+#sidebar {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(33, 34, 44, 0.9)), color-stop(75%, rgba(33, 34, 44, 0.75)), to(rgba(33, 34, 44, 0.7)));
+    background: linear-gradient(0deg, rgba(33, 34, 44, 0.9) 0%, rgba(33, 34, 44, 0.75) 75%, rgba(33, 34, 44, 0.7) 100%);
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
+    border: 1px solid transparent;
+    border-radius: 0px;
+    --shadow-color: 232deg 22% 2%;
+    -webkit-box-shadow: -0.1px 0px .1px hsl(var(--shadow-color)/0.14), -0.9px .1px 1px -0.3px hsl(var(--shadow-color)/0.14), -1.8px .1px 2.1px -0.7px hsl(var(--shadow-color)/0.15), -2.9px .2px 3.4px -1px hsl(var(--shadow-color)/0.15), -4.6px .3px 5.3px -1.3px hsl(var(--shadow-color)/0.15), -7.1px .4px 8.2px -1.6px hsl(var(--shadow-color)/0.16), -10.7px .6px 12.4px -2px hsl(var(--shadow-color)/0.16), -15.7px .9px 18.2px -2.3px hsl(var(--shadow-color)/0.16);
+    box-shadow: -0.1px 0px .1px hsl(var(--shadow-color)/0.14), -0.9px .1px 1px -0.3px hsl(var(--shadow-color)/0.14), -1.8px .1px 2.1px -0.7px hsl(var(--shadow-color)/0.15), -2.9px .2px 3.4px -1px hsl(var(--shadow-color)/0.15), -4.6px .3px 5.3px -1.3px hsl(var(--shadow-color)/0.15), -7.1px .4px 8.2px -1.6px hsl(var(--shadow-color)/0.16), -10.7px .6px 12.4px -2px hsl(var(--shadow-color)/0.16), -15.7px .9px 18.2px -2.3px hsl(var(--shadow-color)/0.16);
+    width: 400px;
+    margin: 0px;
+}
+
+#sidebar-tabs {
+    border-bottom: none;
+    box-shadow: none;
+}
+
+#sidebar-tabs>.item.active {
+    color: var(--color-baskerville-accent);
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid var(--color-baskerville-accent);
+    text-shadow: 0 0 0 4px var(--color-baskerville-accent);
+}
+
+#sidebar-tabs>.item.active:hover {
+    text-shadow: 0 0 8px var(--color-baskerville-accent-highlight);
+}
+
+#sidebar-tabs>.item {
+    color: var(--color-baskerville-text-secondary);
+    background: transparent;
+    border: none;
+    text-shadow: 0 0 2px var(--color-baskerville-shadow);
+}
+
+#sidebar-tabs>.item:hover {
+    color: var(--color-baskerville-accent-highlight);
+    text-shadow: 0 0 2px var(--color-baskerville-glow);
+}
+
+/* ## Chat #################### */
+
+.vtt #chat-log .message {
+    /* background: var(--color-parchment) !important; */
+    background: var(--color-baskerville-parchment);
+    border: 5px solid var(--color-baskerville-border);
+    border-radius: 0px;
+    color: var(--color-baskerville-text-dark);
+    font-family: var(--font-primary);
+    line-height: 135%;
+    font-size: 0.9em;
+    padding: 6px !important;
+    margin: 34px 15px 34px 17px !important;
+  }
+
+  .vtt #chat-log .message.whisper {
+   background: var(--color-baskerville-parchment);
+}
+
+  .vtt #chat-log h1, .vtt #chat-log h2, .vtt #chat-log h3, .vtt #chat-log h4, .vtt #chat-log h5 {
+    /* color: var(--color-baskerville-accent) !important; */
+} 
+
+#sidebar-tabs > .item.active {
+    border: 0px;
+    border-bottom: 2px solid var(--color-baskerville-accent);
+    box-shadow: none;
+    text-shadow: 0 0 10px var(--color-baskerville-accent);
+}
+
+#sidebar.collapsed #sidebar-tabs > .item.active {
+    border-bottom: 2px solid var(--color-baskerville-accent);
+    border-radius: 0px;
+}
+
+#chat-log {
+    background: inherit;
+    border: 1px solid transparent;
+    border-radius: 1px;
+    border-width: 1px;
+    background: transparent;
+    border-radius: 2px;
+}
+.chat-message {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(135deg,  var(--color-accent) 0%,  var(--color-inactive) 100%);
+    background: var(--color-baskerville-content);
+    color: var(--color-baskerville-text-dark);
+    margin-bottom: 5px;
+}
+.chat-message.whisper {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(135deg,  var(--color-accent-highlight) 0%,  var(--color-accent) 100%);
+    background: var(--color-baskerville-content);
+    color: var(--color-baskerville-text-dark);
+}
+    .chat-message.blind {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(135deg,  var(--color-accent-tertiary) 0%,  var(--color-accent) 100%);
+    background: var(--color-baskerville-content);
+    color: var(--color-baskerville-text-dark);
+}
+.chat-message.emote {
+    border: 1px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(135deg,  var(--color-success) 0%,  var(--color-accent) 100%);
+    background: var(--color-baskerville-content);
+    color: var(--color-baskerville-text-dark);
+}
+
+.chat-message .message-content {
+    color: var(--color-baskerville-text-dark);
+}
+
+.vtt #chat-log .message .chat-title {
+    border: 1px solid rgba(0,0,0,0.2);
+ }
+
+.vtt #chat-log .message .message-sender {
+    font-family: var(--font-header) !important;
+    color: var(--color-baskerville-text-dark);
+}
+
+.vtt #chat-log .message .result {
+    border: none;
+}
+
+.vtt #chat-log .message .result-label {
+    border: 2px solid !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+h4.dice-total {
+   /* color: chartreuse; */
+    font-family: var(--font-mono) !important;
+}
+
+.vtt #chat-log .dice-roll .dice-formula {
+font-family: var(--font-mono) !important;
+}
+
+
+/* -- SETTING SIDEBAR -------------------- */
+
+.settings-sidebar {
+    overflow-y: initial;
+}
+
+#sidebar #settings ul {
+    margin: 20px 10px;
+    padding: 10px;
+    font-family: var(--font-primary);
+    color: var(--primary-font);
+    background: var(--color-baskerville-content);
+    border: 6px double var(--color-baskerville-glow);
+    border-radius: 0px;
+    box-shadow: none;
+  }
+
+/* ## Charachter Sheet #################### */
+
+/* -- Header -------------------- */
+
+.dungeonworld.sheet .cell__title,
+.dungeonworld.sheet .cell__subtitle {
+    font-family: var(--font-header);
+    font-weight: 100;
+}
+
+.dungeonworld.sheet .input--title {
+    font-family: var(--font-header);
+    font-weight: 100;
+}
+
+.dungeonworld.sheet label,
+.dungeonworld.sheet h1,
+.dungeonworld.sheet h2 {
+    font-family: var(--font-header);
+    font-weight: 100;
+}
+
+.dungeonworld.sheet h3,
+.dungeonworld.sheet h4,
+.dungeonworld.sheet h5,
+.dungeonworld.sheet h6 {
+    font-family: var(--font-header);
+    font-weight: 100;
+}
+
+.dungeonworld.sheet .cell__title a,
+.dungeonworld.sheet .cell__title button,
+.dungeonworld.sheet .cell__subtitle a,
+.dungeonworld.sheet .cell__subtitle button {
+    color: var(--color-baskerville-text-primary)
+}
+
+/* -- Content -------------------- */
+
+.dungeonworld.actor .window-content {
+    background: var(--color-baskerville-parchment);
+    background-image: none;
+}
+
+.dungeonworld.sheet .tabs .item.active {
+    background: var(--color-baskerville-parchment);
+}
+
+.dungeonworld.sheet .cell--abilities .ability .ability-debility {
+    font-family: var(--font-sans);
+    font-size: 0.85em;
+}
+
+/* ## PDF #################### */
+
+.sheet.journal-entry .journal-entry-page {
+    height: 100%;
+}
+
+
+/* ## Add-Ons #################### */
+
+button#kanka {
+    width: 99%;
+    width: -webkit-fill-available;
+}
