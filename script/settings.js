@@ -1,7 +1,7 @@
 Hooks.once('init', function() {
-    game.settings.register('<dein-modul>', 'selectedStyle', {
-      name: game.i18n.localize('<dein-modul>.settings.selectedStyle.name'),
-      hint: game.i18n.localize('<dein-modul>.settings.selectedStyle.hint'),
+    game.settings.register('<baskerville-ui>', 'selectedStyle', {
+      name: game.i18n.localize('<baskerville-ui>.settings.selectedStyle.name'),
+      hint: game.i18n.localize('<baskerville-ui>.settings.selectedStyle.hint'),
       scope: 'client',
       config: true,
       type: String,
@@ -17,20 +17,20 @@ Hooks.once('init', function() {
   });
   
   Hooks.once('ready', function() {
-    loadSelectedCSS(game.settings.get('<dein-modul>', 'selectedStyle'));
+    loadSelectedCSS(game.settings.get('<baskerville-ui>', 'selectedStyle'));
   });
   
   function loadSelectedCSS(cssFileName) {
-    const cssLink = document.getElementById('<dein-modul>-css');
+    const cssLink = document.getElementById('<baskerville-ui>-css');
     if (cssLink) {
       cssLink.remove();
     }
   
     const head = document.getElementsByTagName('head')[0];
     const newCSS = document.createElement('link');
-    newCSS.id = '<dein-modul>-css';
+    newCSS.id = '<baskerville-ui>-css';
     newCSS.rel = 'stylesheet';
-    newCSS.href = `modules/<dein-modul>/assets/${cssFileName}`;
+    newCSS.href = `modules/<baskerville-ui>/assets/${cssFileName}`;
     head.appendChild(newCSS);
   }
   
