@@ -425,7 +425,7 @@ button:hover, form button:hover {
 .vtt #chat-log .message {
     /* background: var(--color-parchment) !important; */
     background: var(--color-baskerville-parchment);
-    border: 5px solid var(--color-baskerville-border);
+    border: 5px solid;
     border-radius: 0px;
     color: var(--color-baskerville-text-dark);
     font-family: var(--font-primary);
