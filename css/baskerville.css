@@ -544,6 +544,19 @@ h4.dice-total {
     height: fit-content !important;
 }
 
+#navigation #scene-list .scene.view, #navigation #scene-list .scene.context {
+    cursor: default;
+    color: #414558;
+    border: 0px !important;
+    background: var(--color-baskerville-parchment);
+    border-bottom: 0px !important;
+    box-shadow: 0 0 6px var(--color-baskerville-parchment);
+    font-family: var(--font-sans);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
 /* ## Charachter Sheet #################### */
 
 /* -- Header -------------------- */
