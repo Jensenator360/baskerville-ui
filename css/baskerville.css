@@ -53,7 +53,7 @@
 /* -- HEADER -------------------- */
 @font-face {
     font-family: "Header";
-    src: url("../ui/fonts/Quando-Regular.ttf");
+    src: url("../ui/fonts/Quando/Quando-Regular.ttf");
 }
 
 /* --  SERIF  -------------------- */
@@ -72,7 +72,7 @@
 /* -- SANS SERIF -------------------- */
 @font-face {
     font-family: "Primary Sans";
-    src: url("../ui/fonts/Signika-VariableFont_wght.ttf");
+    src: url("../ui/fonts/Signika/Signika-VariableFont_wght.ttf");
 }
 
 /* --- MONOSPACED -------------------- */
@@ -84,7 +84,7 @@
 /* -- LvlUp Font -------------------- */
 @font-face {
     font-family: "LevelUp Font";
-    src: url("../ui/fonts/Charm-Regular.ttf");
+    src: url("../ui/fonts/Charm/Charm-Regular.ttf");
 }
 
 /* ## Editor ##################### */
