@@ -1,2 +1,2 @@
 # fantasy-ui
-A dark and light UI for Dungeonworld Foundry VTT based on Dracula
+A dark UI for Foundry VTT based on Dracula color scheme
