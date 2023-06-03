@@ -353,22 +353,14 @@ button:hover, form button:hover {
 
 /* Remove Icons */
 
-.fa-arrow-right-rotate:before, .fa-arrow-rotate-forward:before, .fa-arrow-rotate-right:before, .fa-redo:before {
-    content: none !important;
+#menu #menu-items li>i {
+    flex: 0;
 }
 
-.fa-user:before {
-    content: none !important;
+#menu #menu-items li:hover {
+    /* text-shadow: 0 0 10px var(--color-shadow-highlight); */
+    color: var(--color-baskerville-accent);
 }
-
-.fa-users:before {
-    content: none !important;
-}
-
-.fa-globe:before {
-    content: none !important;
-}
-
 
 /* ## Sidebar #################### */
 
@@ -649,7 +641,7 @@ h4.dice-total {
 /* -- Content -------------------- */
 
 .sheet .editor-content {
-   /*color: var(--color-baskerville-text-primary);*/
+    /*color: var(--color-baskerville-text-primary);*/
     font-family: var(--font-sans);
 }
 
@@ -979,12 +971,12 @@ button.quest-log-btn {
     background-color: transparent;
 }
 
-input.bsh-base-attribute-input{
+input.bsh-base-attribute-input {
     color: #21222c !important;
 
 }
 
-#bsh-field, input{
+#bsh-field, input {
     color: #21222c !important;
 
 }
@@ -1018,7 +1010,7 @@ option, optgroup.bsh-input bsh-select {
 
 /* ## Tagger #################### */
 
-fieldset.tagger .tag-container .tag > * {
+fieldset.tagger .tag-container .tag>* {
     cursor: pointer;
     color: #000;
 }
@@ -1039,4 +1031,3 @@ fieldset.tagger .tag-container .tag > * {
 .sheet.journal-entry .journal-entry-page img {
     border: 0;
 }
-
