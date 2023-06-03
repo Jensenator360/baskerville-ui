@@ -2,7 +2,7 @@
     "id": "baskerville-ui",
     "title": "Baskerville UI",
     "description": "A Dark and Light Theme for Dungeon World",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "library": "false",
     "compatibility": {
       "minimum": "11",

@@ -349,6 +349,7 @@ button:hover, form button:hover {
 #menu #menu-items li h4 {
     font-size: 1.5em;
     font-family: var(--font-header);
+    text-shadow: none !important;
 }
 
 /* Remove Icons */
