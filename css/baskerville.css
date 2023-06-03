@@ -351,6 +351,25 @@ button:hover, form button:hover {
     font-family: var(--font-header);
 }
 
+/* Remove Icons */
+
+.fa-arrow-right-rotate:before, .fa-arrow-rotate-forward:before, .fa-arrow-rotate-right:before, .fa-redo:before {
+    content: none !important;
+}
+
+.fa-user:before {
+    content: none !important;
+}
+
+.fa-users:before {
+    content: none !important;
+}
+
+.fa-globe:before {
+    content: none !important;
+}
+
+
 /* ## Sidebar #################### */
 
 #sidebar {
