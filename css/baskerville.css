@@ -772,6 +772,7 @@ textarea:focus {
 .journal-sheet .journal-header .title {
     color: #000;
     background: var(--color-baskerville-inactive);
+    font-family: var(--font-header) !important;
 }
 
 /*
