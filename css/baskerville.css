@@ -572,6 +572,13 @@ h4.dice-total {
     font-size: 1.2em;
 }
 
+#context-menu li.context-item {
+    font-family: 'Primary Sans';
+    font-style: initial;
+    font-weight: 100;
+    font-size: 0.85em;
+}
+
 /* ## Charachter Sheet #################### */
 
 /* -- Header -------------------- */
