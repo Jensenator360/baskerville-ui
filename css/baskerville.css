@@ -569,14 +569,13 @@ h4.dice-total {
     font-family: var(--font-sans);
     font-weight: bold;
     font-style: italic;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 #context-menu li.context-item {
     font-family: 'Primary Sans';
     font-style: initial;
     font-weight: 100;
-    font-size: 0.85em;
 }
 
 /* ## Charachter Sheet #################### */
