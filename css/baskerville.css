@@ -140,10 +140,12 @@ h1.nue, h2.nue, h3.nue, h3.nue, footer.nue {
     border-color: var(--color-baskerville-border);
 }
 
+/*
 hr {
     border-top: 1px solid var(--color-baskerville-glow);
     border-bottom: 1px solid var(--color-baskerville-glow);
 }
+*/
 
 footer {
     color: inherit;
