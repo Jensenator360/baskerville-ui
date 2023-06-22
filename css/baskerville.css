@@ -99,6 +99,10 @@
     background-color: rgba(238, 238, 238, 0.45) !important;
 }
 
+.tox.tox-tinymce .tox-tbtn {
+    background-color: rgba(238, 238, 238, 0.45) !important;
+}
+
 .dungeonworld.sheet .tox-tinymce .tox-toolbar-overlord, .dungeonworld.sheet .tox-tinymce .tox-toolbar__primary {
     background: rgba(240, 240, 240, 1);
     border-bottom: 1px solid #000;
@@ -354,7 +358,7 @@ button:hover, form button:hover {
 
 /* Remove Icons */
 
-#menu #menu-items li > i {
+#menu #menu-items li>i {
     flex: 0;
     font-size: var(--font-size-24);
     line-height: 48px;
