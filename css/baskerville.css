@@ -1030,6 +1030,17 @@ fieldset.tagger .tag-container .tag>* {
     color: #000;
 }
 
+/* ## Whitebiard #################### */
+
+.tlui-layout__mobile .tlui-toolbar__tools__button>.tlui-icon {
+    color: #fff !important;
+}
+
+.tlui-button>span {
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
 /* ## Storyteller #################### */
 
 .story-sheet .journal-page-content, .story-sheet .page-num.num-start h1, .story-sheet .page-num.num-start .pages-list>ol {
