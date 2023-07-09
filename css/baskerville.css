@@ -1061,9 +1061,17 @@ fieldset.tagger .tag-container .tag>* {
 }
 
 .monks-active-tiles.sheet .items-list .item .item-name {
-    color: #414558 Im !important;
+    color: #414558 !important;
 }
 
+.monks-active-tiles div[data-tab="triggers"] .action-items .details-style {
+    color: #414558 !important; 
+}
+
+.monks-active-tiles.sheet .items-list .item .item-name {
+    color: #414558 !important;
+
+}
 
 /* ## TEST-AREA 51 #################### */
 
