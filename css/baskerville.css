@@ -931,33 +931,6 @@ button.quest-log-btn {
     content: none;
 }
 
-/* -- monks-active-tiles -------------------- */
-
-#trigger-action .file-list .image-name, .monks-active-tiles .file-list .image-name {
-    color: #fff;
-}
-
-.action-sheet .display-value {
-    color: #fff;
-}
-
-.monks-active-tiles div[data-tab="triggers"] .action-items .action-style {
-    color: #fff;
-}
-
-.monks-active-tiles.sheet .items-list .item .item-name {
-    color: #fff;
-}
-
-.monks-active-tiles div[data-tab="triggers"] .action-items .details-style {
-    color: #fff;
-}
-
-.monks-active-tiles div[data-tab="triggers"] .action-items .entity-style {
-    font-style: italic;
-    color: #fff;
-}
-
 /* -- Forien's Quest Log -------------------- */
 #forien-quest-log.window-app .window-content {
     color: var(--color-baskerville-text-dark);
@@ -1041,31 +1014,23 @@ fieldset.tagger .tag-container .tag>* {
     text-shadow: none !important;
 }
 
-/* ## Storyteller #################### */
-
-.story-sheet .journal-page-content, .story-sheet .page-num.num-start h1, .story-sheet .page-num.num-start .pages-list>ol {
-    color: #48392e !important;
-}
-
-.story-sheet .journal-entry-page.text {
-    color: #48392e !important;
-}
-
 /* ## Monks Active Tile Triggers #################### */
+
 .action-sheet .display-value {
     color: #fff !important;
 }
 
 .monks-active-tiles div[data-tab="triggers"] .action-items .action-style {
     color: #fff !important;
+
 }
 
 .monks-active-tiles.sheet .items-list .item .item-name {
-    color: #414558 !important;
+    color: #79889d !important;
 }
 
 .monks-active-tiles div[data-tab="triggers"] .action-items .details-style {
-    color: #ce0d0d !important;
+    color: #79889d !important;
     font-style: italic;
 }
 
@@ -1087,6 +1052,44 @@ monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
 .monks-active-tiles div[data-tab="triggers"] .action-items .tag-style {
     color: #fff;
 
+}
+
+.monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
+    font-weight: normal !important;
+    color: #fff !important;
+}
+
+.monks-active-tiles div[data-tab="triggers"] .action-items .tag-style {
+    color: #79889d !important;
+}
+
+.monks-active-tiles div[data-tab="triggers"] .action-items .value-style {
+    color: #79889d !important;
+}
+
+#trigger-action .file-list .image-name, .monks-active-tiles .file-list .image-name {
+    color: #fff;
+}
+
+.action-sheet .display-value {
+    color: #fff;
+}
+
+.monks-active-tiles div[data-tab="triggers"] .action-items .action-style {
+    color: #fff;
+}
+
+.monks-active-tiles.sheet .items-list .item .item-name {
+    color: #fff;
+}
+
+.monks-active-tiles div[data-tab="triggers"] .action-items .details-style {
+    color: #fff;
+}
+
+.monks-active-tiles div[data-tab="triggers"] .action-items .entity-style {
+    font-style: italic;
+    color: #fff;
 }
 
 /* ## TEST-AREA 51 #################### */
