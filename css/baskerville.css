@@ -1079,6 +1079,11 @@ fieldset.tagger .tag-container .tag>* {
     color: #fff !important;
 }
 
+monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
+    font-weight: bold;
+    color: #414558 !important;
+}
+
 /* ## TEST-AREA 51 #################### */
 
 .sheet.journal-entry .journal-entry-page img {
