@@ -1065,7 +1065,8 @@ fieldset.tagger .tag-container .tag>* {
 }
 
 .monks-active-tiles div[data-tab="triggers"] .action-items .details-style {
-    color: #414558 !important; 
+    color: #ce0d0d !important;
+    font-style: italic;
 }
 
 .monks-active-tiles.sheet .items-list .item .item-name {
