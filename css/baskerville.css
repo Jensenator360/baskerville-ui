@@ -1074,6 +1074,11 @@ fieldset.tagger .tag-container .tag>* {
 
 }
 
+.monks-active-tiles div[data-tab="triggers"] .action-items .entity-style {
+    font-style: italic;
+    color: #fff !important;
+}
+
 /* ## TEST-AREA 51 #################### */
 
 .sheet.journal-entry .journal-entry-page img {
