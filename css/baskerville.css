@@ -1096,6 +1096,10 @@ monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
     color: #fff !important;
 }
 
+#trigger-action .tt-menu {
+    background-color: #21222c !important;
+}
+
 /* ## TEST-AREA 51 #################### */
 
 .sheet.journal-entry .journal-entry-page img {
