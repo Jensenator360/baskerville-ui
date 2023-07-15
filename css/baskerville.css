@@ -1050,7 +1050,7 @@ monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
 }
 
 .monks-active-tiles div[data-tab="triggers"] .action-items .tag-style {
-    color: #fff;
+    color: #fff !important;
 
 }
 
@@ -1068,28 +1068,32 @@ monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
 }
 
 #trigger-action .file-list .image-name, .monks-active-tiles .file-list .image-name {
-    color: #fff;
+    color: #fff !important;
 }
 
 .action-sheet .display-value {
-    color: #fff;
+    color: #fff !important;
 }
 
 .monks-active-tiles div[data-tab="triggers"] .action-items .action-style {
-    color: #fff;
+    color: #fff !important;
 }
 
 .monks-active-tiles.sheet .items-list .item .item-name {
-    color: #fff;
+    color: #fff !important;
 }
 
 .monks-active-tiles div[data-tab="triggers"] .action-items .details-style {
-    color: #fff;
+    color: #fff !important;
 }
 
 .monks-active-tiles div[data-tab="triggers"] .action-items .entity-style {
-    font-style: italic;
-    color: #fff;
+    font-style: italic !important;
+    color: #fff !important;
+}
+
+.monks-active-tiles div[data-tab="triggers"] .action-items .filter-style {
+    color: #fff !important;
 }
 
 /* ## TEST-AREA 51 #################### */
