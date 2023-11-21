@@ -1111,15 +1111,3 @@ monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
 .sheet.journal-entry .journal-entry-page img {
     border: 0;
 }
-
-/* ** Jump to bottom ** */
-
-.jump-to-bottom {
-    margin-left: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
-    bottom: 224px;
-    padding: 5px;
-    width: 356px;
-    /* padding-left: 17px; */
-}
