@@ -31,6 +31,8 @@
     --color-baskerville-background: linear-gradient(0deg, rgba(33, 34, 44, 0.9) 0%, rgba(33, 34, 44, 0.9) 75%, rgba(33, 34, 44, 0.9) 100%);
     --color-baskerville-background-notrans: #21222c;
 
+    --sidebar-width: 400px !important;
+
     /* Fonts */
     --font-primary: "Primary Font";
     --font-mono: "Monospaced";
