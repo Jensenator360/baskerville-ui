@@ -939,6 +939,10 @@ button.quest-log-btn {
     content: none;
 }
 
+.monks-enhanced-journal .directory li.journalentry, .monks-enhanced-journal .directory li.journalentrypage {
+    color: #fff;
+}
+
 /* -- Forien's Quest Log -------------------- */
 #forien-quest-log.window-app .window-content {
     color: var(--color-baskerville-text-dark);
