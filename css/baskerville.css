@@ -940,7 +940,7 @@ button.quest-log-btn {
 }
 
 .monks-enhanced-journal .directory li.journalentry, .monks-enhanced-journal .directory li.journalentrypage {
-    color: #fff;
+    color: #fff; !important
 }
 
 /* -- Forien's Quest Log -------------------- */
