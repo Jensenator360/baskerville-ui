@@ -1137,7 +1137,7 @@ color: #6c7393 !important;
     box-shadow: none;
 }
 
-..pinnedchatlog .item.active {
+.pinnedchatlog .item.active {
     color: var(--color-baskerville-text-primary);
     border: none;
     border-bottom: none;
