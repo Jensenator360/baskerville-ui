@@ -1146,3 +1146,7 @@ color: #6c7393 !important;
     background: var(--color-baskerville-text-dark);
     text-shadow: none !important;
 }
+
+.background-input {
+    background: black!important;
+}
