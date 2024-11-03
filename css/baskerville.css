@@ -1138,12 +1138,12 @@ color: #6c7393 !important;
 }
 
 .pinnedchatlog .item.active {
-    color: var(--color-baskerville-text-primary);
-    border: none;
-    border-bottom: none;
-    box-shadow: none;
-    border-radius: 0;
-    background: var(--color-baskerville-text-dark);
+    color: var(--color-baskerville-text-primary) !important;
+    border: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: var(--color-baskerville-text-dark) !important;
     text-shadow: none !important;
 }
 
