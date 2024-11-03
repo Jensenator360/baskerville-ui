@@ -1118,6 +1118,13 @@ monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
 }
 
 .sheet footer.sheet-footer > * {
-    flex: 1;
     font-family: var(--font-sans);
+}
+
+.standard-form .form-group > label {
+color: #6c7393 !important;
+}
+
+.standard-form .form-group > label:hover {
+    color: var(--color-baskerville-accent); */
 }
