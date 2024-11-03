@@ -223,7 +223,7 @@ input[type="text"], input[type="number"], input[type="password"], input[type="da
 /* .vtt .window-app input, .vtt .window-app button, .vtt .window-app select, .vtt .window-app textarea */
 .vtt .window-app input, .vtt .window-app button, .vtt .window-app textarea {
     font-size: 1em;
-    color: var(--color-baskerville-text-primary);
+    color: var(--color-baskerville-text-primary) !important;
 }
 
 select {
@@ -688,7 +688,7 @@ h4.dice-total {
 .vtt .window-app input:hover, .vtt .window-app input:focus, .vtt .window-app button:hover, .vtt .window-app button:focus, .vtt .window-app select:hover, .vtt .window-app select:focus, .vtt .window-app textarea:hover, .vtt .window-app textarea:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    background: #5b7094;
+    background: #5b7094 !important;
 }
 
 .vtt #chat-form textarea {
@@ -1127,4 +1127,22 @@ color: #6c7393 !important;
 
 .standard-form .form-group > label:hover {
     color: var(--color-baskerville-accent); */
+}
+
+/* ## Pinned Message ################## */
+.pinnedchatlog.tabs {
+    flex: 0;
+    margin: 0;
+    border-bottom: 1px solid var(--color-baskerville-border);
+    box-shadow: none;
+}
+
+..pinnedchatlog .item.active {
+    color: var(--color-baskerville-text-primary);
+    border: none;
+    border-bottom: none;
+    box-shadow: none;
+    border-radius: 0;
+    background: var(--color-baskerville-text-dark);
+    text-shadow: none !important;
 }
