@@ -939,7 +939,7 @@ button.quest-log-btn {
 }
 
 .monks-enhanced-journal .directory li.journalentry, .monks-enhanced-journal .directory li.journalentrypage {
-    color: #fff; !important
+    color: #fff !important;
 }
 
 /* -- Forien's Quest Log -------------------- */
@@ -1126,7 +1126,7 @@ color: #6c7393 !important;
 }
 
 .standard-form .form-group > label:hover {
-    color: var(--color-baskerville-accent); */
+    color: var(--color-baskerville-accent);
 }
 
 /* ## Pinned Message ################## */
