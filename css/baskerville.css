@@ -222,7 +222,6 @@ input[type="text"], input[type="number"], input[type="password"], input[type="da
 
 /* .vtt .window-app input, .vtt .window-app button, .vtt .window-app select, .vtt .window-app textarea */
 .vtt .window-app input, .vtt .window-app button, .vtt .window-app textarea {
-    font-family: var(--font-sans) !important;
     font-size: 1em;
     color: var(--color-baskerville-text-primary);
 }
@@ -1116,4 +1115,9 @@ monks-active-tiles div[data-tab="triggers"] .action-items .logic-style {
 
 .sheet.journal-entry .journal-entry-page img {
     border: 0;
+}
+
+.sheet footer.sheet-footer > * {
+    flex: 1;
+    font-family: var(--font-sans);
 }
