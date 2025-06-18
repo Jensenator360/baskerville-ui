@@ -1150,3 +1150,14 @@ color: #6c7393 !important;
 .background-input {
     background: black!important;
 }
+
+/* ## cairn #################### */
+.cairn-items-list-row:hover
+Spezifität: (0,2,0)
+ {
+    background-color: darkslateblue;
+}
+
+.item-toggle-equipped.equipped {
+    color: grey;
+}
