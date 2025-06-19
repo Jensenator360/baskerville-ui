@@ -1152,10 +1152,8 @@ color: #6c7393 !important;
 }
 
 /* ## cairn #################### */
-.cairn-items-list-row:hover
-Spezifität: (0,2,0)
- {
-    background-color: darkslateblue;
+.cairn-items-list-row:hover {
+    background-color: var(--color-baskerville-accent) !important;
 }
 
 .item-toggle-equipped.equipped {
